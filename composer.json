@@ -1,32 +1,27 @@
 {
-    "name" : "levit00/forumbundle",
-    "description" : "A forum bundle",
-    "type" : "symfony-bundle",
-    "authors" : [{
-        "name" : "Levit",
-        "email" : "sr.eloy@gmail.com"
-    }],
-    "keywords" : [
-        "forum bundle"
-    ],
-    "license" : [
-        "MIT"
-    ],
-    "require" : {
-	    "symfony/symfony": "2.8.*",
-	    "stof/doctrine-extensions-bundle": "^1.2"
+    "name": "levit00/forumbundle",
+    "description": "Symfony demo forum bundle",
+    "type": "symfony-bundle",
+    "authors": [{
+            "name": "Levit",
+            "email": "sr.eloy@gmail.com"
+        }],
+    "keywords": ["forum bundle"],
+    "license": ["MIT"],
+    "require": {
+        "symfony/symfony": "2.8.*",
+        "stof/doctrine-extensions-bundle": "^1.2"
     },
-    "autoload" : {
-        "psr-0" : {
-            "Levit00\\ForumBundle" : ""
+    "autoload": {
+        "psr-0": {
+            "Levit00\\ForumBundle": ""
         }
     },
-    "target-dir" : "Levit00/ForumBundle",
-    "repositories" : [{
-    }],
-    "extra" : {
-    "branch-alias" : {
-            "dev-master" : "0.1.0-dev"
+    "repositories": [{
+        }],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.0-dev"
         }
     }
 }
