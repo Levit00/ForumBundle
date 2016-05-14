@@ -1,0 +1,3 @@
+levit00_forum_homepage:
+    path:     /
+    defaults: { _controller: Levit00ForumBundle:Default:index }

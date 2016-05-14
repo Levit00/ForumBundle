@@ -1,0 +1,4 @@
+services:
+#    levit00_forum.example:
+#        class: Levit00\ForumBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
